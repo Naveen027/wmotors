@@ -1,0 +1,99 @@
+body{
+    
+    background: linear-gradient(to top, #615f68ba, #000000d9), url(bg1.jpg) no-repeat  ;
+    background-size: cover;
+    height: 800px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li img{
+    height: 80px;
+    width: 170px;
+    
+}
+
+nav ul .right{
+    float: right;
+    margin-right: 40PX;
+    line-height: 70px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.right:hover{
+    color:rgb(25, 186, 235) ;
+    cursor: pointer;
+}
+
+.right button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(25, 186, 235);
+    
+}
+
+.right button:hover{
+    background-color: rgb(25, 186, 235);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+h1 {
+  font-family: 'Inconsolata', Consolas, monospace;
+	font-size: 4em;
+	color: rgb(239, 241, 241);
+    text-shadow: 1PX 2PX 3PX GREY;
+    
+}
+
+
+
+  .typing-demo {
+    width: 11ch;
+    animation: typing 2s steps(22), blink .7s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 5em;
+    position: relative;
+    left: 60%;
+    margin-top: 10%;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+
+  footer{
+    height: 150px;
+    background-color: #141414;
+    margin-top: 34.5%;
+    width: 101%;
+    margin-left: -8px;
+    margin-top: 27.5%;
+}
+
+footer img{
+    height: 100px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
